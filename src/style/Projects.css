@@ -1,0 +1,26 @@
+.projectsrow {
+  padding-top: 4em;
+}
+.content-header {
+  padding-top: 5em;
+}
+.languagerow {
+  padding-top: 4em;
+  padding-left: 7.5em;
+
+  margin: 1em;
+}
+
+.languagerow2 {
+  padding-top: 2em;
+  padding-left: 7.5em;
+
+  margin: 1em;
+}
+.html {
+  width: 5em;
+  height: 5em;
+}
+.icon-btn {
+  margin-right: 1em;
+}

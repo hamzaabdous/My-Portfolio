@@ -1,0 +1,20 @@
+.content-wrapper {
+  background-color: rgb(255, 249, 243);
+  height: 92vh;
+  width: 100vw;
+}
+.titre {
+  text-align: center;
+  padding-top: 1em;
+}
+.About {
+  padding: 2em;
+  padding-top: 5em;
+}
+.aboutText {
+  padding-top: 5em;
+}
+.image1 {
+  width: 20em;
+  height: 20em;
+}
