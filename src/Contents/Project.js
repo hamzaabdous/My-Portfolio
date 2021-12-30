@@ -28,12 +28,11 @@ const Project = () => {
             <div className="col-sm-2">
               <button
                 type="button"
-                className="btn btn-outline-info btn-block btn-flat"
+                className="btn btn-outline-info btn-block btn-flat "
                 onClick={() => setstate(0)}
               >
                 <i className="fab fa-internet-explorer icon-btn" />
                 WEB
-                {alert(Data[state].id)}
               </button>
             </div>
             <div className="col-sm-2">
@@ -55,45 +54,48 @@ const Project = () => {
           <div className="row projectsrow">
             <div className="col-2"></div>
             <div className="col-8 projectsText">
-              <h4>hamza</h4>
-              <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
-                eligendi sequi veniam harum aperiam id corrupti unde ipsa
-                delectus quo totam possimus accusamus neque, odio quasi?
-                Obcaecati eaque voluptatem sit.
-              </div>
+              <h4>{Data[state].title}</h4>
+              <div>{Data[state].description}</div>
             </div>
             <div className="col-2"></div>
           </div>
-          <div className="container-fluid">
-            <div className="row languagerow">
+          <div className="container-fluid languagerow">
+            <div className="row ">
               <div className="col-4">
-                <img src={html} className="img-fluid html" alt="black sample" />
+                <img
+                  src={Data[state].icon1}
+                  className="img-fluid html"
+                  alt="black sample"
+                />
               </div>
               <div className="col-4">
-                <img src={css} className="img-fluid html" alt="black sample" />
+                <img
+                  src={Data[state].icon2}
+                  className="img-fluid html"
+                  alt="black sample"
+                />
               </div>
               <div className="col-4 ">
                 <div>
                   <img
-                    src={bootstrap}
+                    src={Data[state].icon3}
                     className="img-fluid html"
                     alt="black sample"
                   />
                 </div>
               </div>
             </div>
-            <div className="row languagerow2">
+            <div className="row ">
               <div className="col-4">
                 <img
-                  src={reacjs}
+                  src={Data[state].icon4}
                   className="img-fluid html"
                   alt="black sample"
                 />
               </div>
               <div className="col-4">
                 <img
-                  src={javascript}
+                  src={Data[state].icon5}
                   className="img-fluid html"
                   alt="black sample"
                 />
@@ -101,7 +103,7 @@ const Project = () => {
               <div className="col-4 ">
                 <div>
                   <img
-                    src={api}
+                    src={Data[state].icon6}
                     className="img-fluid html"
                     alt="black sample"
                   />

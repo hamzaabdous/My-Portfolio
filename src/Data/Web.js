@@ -6,13 +6,13 @@ import bootstrap from "../img/bootstrap-4.svg";
 import api from "../img/api-file.svg";
 import firebase from "../img/google-firebase.svg";
 import mysql from "../img/mysql.svg";
-import reactnative from "../img/mysql.svg";
+import reactnative from "../img/react-native-app.svg";
 import git from "../img/git.svg";
 
 const Data = [
   {
     id: 1,
-    title: "hamza",
+    title: "WEB",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi sequi veniam harum aperiam id corrupti unde ipsa delectus quo totam possimus accusamus neque, odio quasi? Obcaecati eaque voluptatem sit.",
     icon1: html,
@@ -24,7 +24,7 @@ const Data = [
   },
   {
     id: 2,
-    title: "abdous",
+    title: "MOBILE",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi sequi veniam harum aperiam id corrupti unde ipsa delectus quo totam possimus accusamus neque, odio quasi? Obcaecati eaque voluptatem sit.",
     icon1: reactnative,
